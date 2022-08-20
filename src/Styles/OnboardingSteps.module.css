@@ -1,0 +1,41 @@
+.container{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border:1px solid #D3D3D3;   
+    display: inline-block;
+    text-align: center;
+  }
+
+.bluecircle{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #6A5ACD ;
+  color:white;
+  display: inline-block;
+  text-align: center;  
+}
+
+
+  .line{
+    width: 30px;
+    display: block;
+    border-color: #bdbdbd;
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+
+  .blueline{
+    width: 30px;
+    display: block;
+    border-color: #6A5ACD ;
+    border-top-style: solid;
+    border-top-width: 1px;
+  }

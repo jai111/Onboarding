@@ -1,0 +1,46 @@
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.card{
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #9C33FF;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.whitecard{
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #D3D3D3;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.checkmark{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
