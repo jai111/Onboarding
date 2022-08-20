@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{padding: '20px'}}>
       <Typography style={{marginBottom: '50px', fontWeight: '900'}} variant="h6" gutterBottom>
         Eden
       </Typography>
